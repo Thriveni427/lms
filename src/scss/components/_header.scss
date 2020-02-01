@@ -1,0 +1,42 @@
+.iconBtnLeft {
+    .inputIconfa {
+      color: black !important;
+    }
+    .linkProfiles {
+      margin-left: 25px !important;
+      color: black !important;
+    }
+    .linkProfiles2 {
+        margin-left: 30px !important;
+        color: black !important;
+      }
+  }
+  .profilePhoto {
+    font-size: 19px !important;
+  }
+  .profilePhoto1 {
+    font-size: 20px !important;
+  }
+  .profilePhoto2 {
+    font-size: 15px !important;
+  }
+  .clickMenu {
+    outline: none;
+    padding-top: -10px !important;
+    p {
+      outline: none;
+      text-align: left;
+      color: $secondary;
+    }
+    .adminAvatar {
+      margin-top: -10px !important;
+      background: #027C6E;
+      font-size: 22px !important;
+      margin-left: -8px !important;
+      span {
+        color: #fff !important;
+        // font-family: Arial, sans-serif;
+      }
+    }
+}
+ 

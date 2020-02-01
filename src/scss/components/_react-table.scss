@@ -1,0 +1,15 @@
+:root {
+  --th-background: #f6f9fc;
+}
+.ReactTable{
+  .rt-thead {
+    .rt-th{
+      background-color: var(--th-background);
+      text-align: left;
+      padding: 15px;
+    }
+  }
+  .rt-td {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  --th-background: #f6f9fc;
+}
+
+.table{
+  th{
+    background-color: var(--th-background);
+    border-bottom: 0!important;
+  }
+  td{
+    padding: 1.25rem;
+  }
+}

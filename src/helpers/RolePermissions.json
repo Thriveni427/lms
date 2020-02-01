@@ -1,0 +1,127 @@
+{
+    "DashBoard": {
+      "DashBoard": {
+        "Create": false,
+        "Read": false
+      }
+    },
+    "VendorManagent": {
+      "Vendors": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "VendorBatches": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "VendorCourses": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "Users": {
+      "CreateUser": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "BulkUpload": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "Admin": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "EnrolledStudents": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "Courses": {
+      "ManageCourse": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "ManageCategory": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "TestPapers": {
+      "QuestionBank": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "QuestionPapers": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "TagCongiguration": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "LiveClass": {
+      "LiveClass": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "ContentLibrary": {
+      "ContentLibrary": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "Reports": {
+      "Users": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      },
+      "CourseEnrollment": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    },
+     "BoradCastMessages": {
+      "BoradCastMessages": {
+        "Create": false,
+        "Delete": false,
+        "Edit": false,
+        "Read": false
+      }
+    }
+
+}

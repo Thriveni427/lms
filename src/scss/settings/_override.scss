@@ -1,0 +1,48 @@
+button{
+    &:focus{
+        outline: none;
+    }
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+    @include media-breakpoint-down(md) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.card {
+    margin-bottom: 30px;
+    border: 0;
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+}
+.card-header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    background-color: #fff;
+
+    h3{
+        font-size: 1.65rem;
+    }
+}
+.c-breadcrumb{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+.editorClassName{
+    border-bottom: 1px solid #F1F1F1;
+    border-left: 1px solid #F1F1F1;
+    border-right: 1px solid #F1F1F1;
+    margin-top: -5px;
+    height: 200px !important;
+    padding: 20px;
+}
+
+.h-100vh{
+    height: 100vh
+}

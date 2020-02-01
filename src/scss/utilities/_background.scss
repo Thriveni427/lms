@@ -1,0 +1,19 @@
+.c-primaryBG{
+  background-color: var(--primary);
+  &--light{
+    background-color: var(--primaryLight);
+  }
+}
+
+.u-bgIndigo {
+    background-color: #3f51b5!important;
+}
+.u-bgPink {
+    background-color: #ff4081!important;
+}
+.u-bgCyan {
+    background-color: #00bcd4!important;
+}
+.u-bgSuccess {
+    background-color: #4caf50!important;
+}

@@ -1,0 +1,121 @@
+.courseSetup{
+  &__title{
+    background-color: #efeeee;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .createFolder{
+    &__card{
+      padding: 0;
+    }
+    &__content{
+      padding: 0;
+    }
+    &__paper{
+      padding: 0 20px;
+      box-shadow: none;
+    }
+    &__formControl{
+      padding: 0;
+    }
+    &__title{
+      background-color: #efeeee;
+      padding: 10px;
+      font-size: 14px
+    }
+  }
+}
+.dropdown-menu {
+    width: 240px;
+    left: -57px!important;
+}
+.dropdown-item{
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+  &:last-child{
+    border-bottom: 0
+  }
+}
+.dropdown-item{
+  i{
+    padding-right: 10px
+  }
+}
+.video-source{
+  position: relative;
+  z-index: 3;
+}
+
+.c-mediaUpload{
+    flex-direction: column;
+    &__files{
+        align-items: center;
+        flex-direction: column;
+      }
+    .msg {
+        text-align: center;
+        margin-top: 12px;
+    }
+    .info {
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+    }
+    .details {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    div.btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100px;
+        width: 100%;
+        background-color: white!important;
+        position: relative;
+        border: 1px dashed #ddd
+    }
+}
+.materialItem{
+  border-bottom: 1px solid #ddd;
+}
+.css-15k3avv {
+  z-index: 10000 !important;
+  background-color: 'red'
+}
+
+.video-react .video-react-big-play-button{
+  top: 50%!important;
+  left: 50%!important;
+  transform: translate(-50%);
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.b-formSection{
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: -7px;
+  // padding-left: 30px;
+  // padding-right: 30px;
+ }
+.e-formSection{
+
+}

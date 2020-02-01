@@ -1,0 +1,35 @@
+.triangle{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 70px solid #027C6E;
+    border-left: 70px solid transparent;
+}
+.trianglecolor{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 70px solid #FF9C00;
+    border-left: 70px solid transparent;
+}
+.trianglethirdparty{
+    position: absolute;
+    right: -2px;
+    top: 16px;
+    z-index: 100;
+    color: white;
+    transform: rotate(44deg);
+    
+}.trianglenew{
+    position: absolute;
+    right: 8px;
+    top: 11px;
+    z-index: 100;
+    color: white;
+    transform: rotate(39deg);
+    
+}

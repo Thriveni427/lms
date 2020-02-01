@@ -1,0 +1,116 @@
+.c-dashboard{};
+
+.chartContainer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+}
+.chartContainer2 {
+  box-sizing: border-box;
+  width: 600px;
+  height: 300px;
+}
+.jr-entry-title {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    position: relative;
+
+    &:before{
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      z-index: 1;
+      height: 3px;
+      width: 42px;
+      background-color: #3f51b5;
+    }
+}
+
+.jr-entry-title--noborder {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    position: relative;
+}
+
+.dark-indigo .text-primary {
+    color: #3f51b5!important;
+}
+.jr-fs-md {
+    font-size: 14px!important;
+    line-height: 1;
+}
+.jr-font-weight-medium {
+    font-weight: 500;
+}
+.c-vendorsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    list-style: none;
+    padding-left: 0;
+
+    &__item {
+      width: 20%;
+      padding: 0 15px;
+      margin-bottom: 30px;
+    }
+}
+.c-vendorsInfo {
+      margin-bottom: 20px;
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      color: white;
+    &__thumb {
+      position: relative;
+      max-height: 120px;
+    }
+    &__content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px 20px;
+      z-index: 2;
+      background-image: linear-gradient(180deg,transparent 0,rgba(0,0,0,.9));
+      background-repeat: repeat-x;
+    }
+}
+.chartContent {
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 15px 20px;
+    color: white;
+    h2{
+      margin: 0;
+      padding: 0;
+    }
+    &__title{
+      text-transform: uppercase;
+      color: white;
+    }
+}
+.userChartContent {
+    padding: 15px 20px;
+    h2{
+      margin: 0;
+      padding: 0;
+    }
+    &__title{
+      text-transform: uppercase;
+      color: white;
+    }
+}
+.noBg{
+  background-color: transparent!important
+}

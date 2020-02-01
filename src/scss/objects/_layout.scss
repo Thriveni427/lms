@@ -1,0 +1,11 @@
+
+.o-wrapper{
+  flex: 1 0 auto;
+}
+.c-main{
+  flex: 1 0 auto;
+  min-height: calc(100vh - 110px);
+}
+.c-contentHeader{
+  position: relative;
+}

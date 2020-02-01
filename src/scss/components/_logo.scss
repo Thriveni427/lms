@@ -1,0 +1,12 @@
+.c-logo{
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: #0d141f;
+    top: 0;
+    &__media{
+      margin: 2px auto;
+      width: 120px;
+    }
+}
