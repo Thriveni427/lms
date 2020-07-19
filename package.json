@@ -51,7 +51,7 @@
     "jest-resolve": "23.6.0",
     "jest-watch-typeahead": "^0.2.1",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lost": "^8.3.1",
     "match-sorter": "^2.3.0",
     "material-ui-pickers": "^2.2.1",
