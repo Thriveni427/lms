@@ -56,7 +56,7 @@
     "match-sorter": "^2.3.0",
     "material-ui-pickers": "^2.2.1",
     "mini-css-extract-plugin": "0.5.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "plotly.js": "^1.45.3",
